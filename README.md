@@ -133,3 +133,5 @@ npm test
 - WAL journal mode is enabled for better concurrent read performance.
 - A full load of ~1.8 million UK postcodes typically completes in under 60 seconds
   on a modern laptop with an SSD.
+
+  Note: this code was created by claude from prompts provided by a human.
