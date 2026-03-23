@@ -1,5 +1,7 @@
 'use strict';
 
+//moved to src and amended to work in visual studio project separately
+
 const fs              = require('fs');
 const path            = require('path');
 const { readCsvFile } = require('./csvParser');
@@ -7,7 +9,7 @@ const DatabaseManager = require('./databaseManager');
 
 // ─── Configuration ────────────────────────────────────────────────────────────
 
-const POSTCODES_DIR   = path.resolve(process.cwd(), 'Postcodes');
+const POSTCODES_DIR   = path.resolve(process.cwd(), '../Postcodes');
 const DB_DIR = process.cwd();
 const BATCH_SIZE      = 5_000;   // rows buffered before a single DB transaction
 
