@@ -1,0 +1,16 @@
+{
+  "name": "postcode-loader",
+  "version": "1.0.0",
+  "description": "Loads UK postcode CSV files into SQLite and builds derived geographic tables",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test":  "node src/tests/postcodeUtils.test.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3"
+  }
+}
